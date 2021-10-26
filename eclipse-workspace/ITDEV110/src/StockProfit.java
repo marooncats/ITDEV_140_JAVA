@@ -1,7 +1,7 @@
 /*
  * Name: Danielle Leslie
  * Assignment:  Chapter 5, Challenge 10: Stock Profit
- * Class: ITDEV140
+ * Class: ITDEV110
  */
 
 import java.util.Scanner;
