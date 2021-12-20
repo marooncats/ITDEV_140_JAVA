@@ -1,0 +1,27 @@
+package ExceptionHandling;
+
+class ShiftSupervisor extends Employee{
+	public static void main(String [] args) {
+	}
+	
+	ProductionWorker p = new ProductionWorker();
+	TeamLeader t = new TeamLeader();
+	
+	double months = 12;
+    double annualSalary;
+    double annualBonus;
+    
+
+    public void setAnnualSalary(double as){
+        annualSalary = as;
+    }
+    public void setAnnualBonus(double ab){
+        annualBonus = ab;
+    }
+    public double getAnnualSalary(){
+        return annualSalary = p.getIncome() * months;
+    }
+    public double getAnnualBonus(){
+        return annualBonus = t.getMonthlyBonus() * months;
+    }
+}
