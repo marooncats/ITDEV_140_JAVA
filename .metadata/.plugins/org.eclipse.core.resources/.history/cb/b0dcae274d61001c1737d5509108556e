@@ -47,7 +47,6 @@ public class EmployeeProductionWorker {
         System.out.println("Monthly Bonus: "+ d.format(t.getMonthlyBonus()));
         System.out.println("Annual Salary: "+ d.format((p.getMonthlyIncome() * 12)));
         System.out.println("Annual Bonus: "+ d.format((t.getMonthlyBonus() * 12)));
-        System.out.println("Annual Salary + Bonus: "+ d.format((t.getMonthlyBonus() * 12) + (p.getMonthlyIncome() * 12)));
         System.exit(0);
     }
 }
